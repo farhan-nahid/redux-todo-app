@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+  font-size: 30px;
+  color: #222;
+  font-weight: 600;
+  margin: 50px 0;
+}
+
+button {
+  border: 1px solid transparent;
+  padding: 10px 0;
+  width: 150px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  outline: 0;
+  background-color: teal;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 30px;
+  transition: all linear 0.3s;
+}
+
+button:hover {
+  color: teal;
+  background-color: #fff;
+  border: 1px solid teal;
+}
+
+input {
+  width: 90%;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: 1px solid teal;
+  outline: 0;
+  font-family: inherit;
+}
+
+li {
+  font-size: 20px;
+  font-weight: 600;
+  border: 1px solid teal;
+  padding: 10px 30px;
+  list-style-type: none;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+li button {
+  margin: 0;
+  margin-left: 30px;
+}
+
+form {
+  padding: 80px 40px;
+  border: 1px solid teal;
+  border-radius: 10px;
+  width: 90%;
+}
+
+h1 {
+  grid-column: span 2;
+  margin: 50px 0;
+  text-align: center;
+  font-size: 40px;
+  color: teal;
+}
+
+.container {
+  padding: 0 5%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
